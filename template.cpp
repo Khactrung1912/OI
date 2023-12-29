@@ -4,7 +4,7 @@ using namespace std;
 #define se second
 #define pb push_back
 #define	ins insert
-#define BIT(x,i) 	((1<<i)&x)
+#define BIT(x,i) 	((1LL<<i)&x)
 #define all(x) x.begin(),x.end()
 #define pll 		pair<ll,ll>
 #define pii 		pair<int,int>
