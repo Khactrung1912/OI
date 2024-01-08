@@ -19,5 +19,9 @@ template<class A,class B> bool _min(A &a,B b) {if (a>b) return a=b,1; return 0;}
 int main()
 {
 	ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-	if (freopen(name".inp","r",stdin)) freopen(name".out","w+",stdout);
+	if (fopen(name".inp","r",stdin)) 
+		{
+			freopen(name".inp","r",stdin);
+			freopen(name".out","w+",stdout);
+		}
 }
