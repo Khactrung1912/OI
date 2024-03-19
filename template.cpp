@@ -30,6 +30,10 @@ struct custom_hash {
         return splitmix64(x + FIXED_RANDOM);
     }
 };
+void print(__int128_t x) {
+    if (x > 9) print(x / 10);
+    putchar(x % 10 + '0');
+}
 int main()
 {
 	ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
