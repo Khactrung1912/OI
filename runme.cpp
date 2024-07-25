@@ -30,7 +30,7 @@ int main(){
 		run(BRUTE); 
 		run(SOL); 
 
-		string com = "diff -w " + NAME + ".ans " + NAME + ".out";
+		string com = "FC " + NAME + ".ans " + NAME + ".out";
 		if (system(com.c_str())){
 			cout << "WA\n";
 			return 0;
