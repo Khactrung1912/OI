@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say language="vi-VN" voice="alice">
+    Xin chào, đây là một thông báo tự động từ thiết bị nhận diện té ngã. Người thân của bạn đã bị té ngã và không có phản hồi. Vui lòng đến bên cạnh người dùng qua tọa độ được gửi qua SMS
+  </Say>
+</Response>
